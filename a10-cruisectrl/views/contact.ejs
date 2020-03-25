@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Info</title>
+
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+
+    <link href="stylesheets/contact.css" rel="stylesheet">
+    <link href="stylesheets/chat.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="javascripts/init.js"></script>
+    <script src="javascripts/socket.js"></script>
+    <script src="javascripts/contact.js"></script>
+
+</head>
+<body>
+<div class="contact">
+    <div class="index">
+        <div class="contact-back">
+        <img src="images/back-white.png" id="contact-back"/>
+        </div>
+        <div id="alert-placeholder">
+        </div>
+        <div id="contact-info">
+        <div class="dev-name">Group members:</div>
+        <div class="dev-name">
+            <img src="images/user.png">
+            Developer: Shuchang Liu
+        </div>
+        <div class="dev-name">
+            <img src="images/user.png">
+            Developer: Sahba Mobini Faharani
+        </div>
+        <div class="dev-name">
+            <img src="images/user.png">
+            Developer: Ivan Luu
+        </div>
+        <div class="dev-name">
+            <img src="images/user.png">
+            Developer: Aaron Brown
+        </div>
+        <div class="methods">
+            <div class="contact-method">
+                <img src="images/house.png">
+                Location:9500 Gilman Drive
+            </div>
+            <div class="contact-method">
+                <img src="images/telephone.png">
+                Tel: (858)-531-8849
+            </div>
+            <div class="contact-method">
+                <img src="images/email.png">
+                Email:s7liu@ucsd.edu
+            </div>
+        </div>
+    </div>
+    </div>
+    <%- include ('chat.ejs') %>
+</div>
+</body>
+</html>

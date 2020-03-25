@@ -1,0 +1,123 @@
+.signUp{
+    font-size: xx-large;
+    position:absolute;
+    height:100vh;
+    width:100vw;
+    background-color: #ee4723;
+    color:white;
+}
+
+.signUp #upload-button-img{
+    height:3vh;
+    width:3vh;
+    margin:1vh;
+}
+
+.signUp #signUp{
+    margin-left: 5vw;
+    margin-right:5vw;
+    width:90%;
+}
+
+.signUp #upload-button{
+    height:5vh;
+    width:5vh;
+    background-color: white;
+}
+
+
+.signUp #signUp-back{
+    height:5vh;
+    width:5vh;
+    margin-left: 2.5vh;
+}
+
+.signUp #signUp-car-img{
+    height:10vh;
+    width:20vh;
+    margin:2vh 15vw;
+}
+
+.signUp #signUp-submit{
+    position:absolute;
+    width:90%;
+    top:90vh;
+    color:black;
+    background-color: white;
+    font-size: xx-large;
+}
+
+.signUp div{
+    margin-top:1vh;
+}
+
+.signUp .cars-country-select{
+    display:none;
+    position:absolute;
+    top:40vh;
+    left:5vw;
+    width:70vw;
+    border:2px solid;
+    background-color: black;
+    color:white;
+    z-index:2;
+}
+
+.signUp .cars-brand-select{
+    display:none;
+    position:absolute;
+    top:47.5vh;
+    left:5vw;
+    width:70vw;
+    border:2px solid;
+    background-color: black;
+    color:white;
+    z-index:2;
+}
+
+.signUp .cars-model-select{
+    display:none;
+    position:absolute;
+    top:55vh;
+    left:5vw;
+    width:70vw;
+    border:2px solid;
+    background-color: black;
+    color:white;
+    z-index:2;
+}
+
+input[type=radio]{
+    height: 25px;
+    width: 40px;
+    min-width: 40px;
+}
+
+input[type=text]{
+    display: inline-block;
+    width:44vw;
+}
+
+input[type=file]{
+    display: inline-block;
+    width:44vw;
+}
+
+span{
+    display: inline-block;
+    width:41vw;
+}
+
+.signUp-item{
+    display: block;
+    width:100%;
+}
+
+.signUp-questioner{
+    display:none;
+}
+
+.signUp-expert{
+    display: none;
+}
+

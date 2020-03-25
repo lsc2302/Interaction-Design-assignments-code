@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/index.css" rel="stylesheet">
+    <link href="stylesheets/signUp.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/signUp.js"></script>
+</head>
+<body>
+<div class="signUp">
+    <div id="alert-placeholder">
+    </div>
+    <div class="signUp-back">
+        <img src="images/back.png" id="signUp-back"/>
+        Back
+    </div>
+    <form id="signUp" enctype="multipart/form-data">
+        <div class="signUp-item">
+                <span>Username:</span>
+                <input type="text" class="form-control" id="signUp-username" />
+        </div>
+        <div>
+            <span>Password:</span>
+            <input type="text" class="form-control" id="signUp-password" /></div>
+        <div>
+            <span>Avatar:</span>
+            <input type="file" name="user Avatar" id="signUp-avatar"/>
+        </div>
+        <div>
+            <span>Sign Up as:</span>
+            <label class="radio-inline" id="signUp-questioner"><input type="radio" checked="checked">Questioner</label>
+            <label class="radio-inline" id="signUp-expert"><input type="radio">Expert</label>
+        </div>
+        <div class="signUp-expert">
+            <div><span>Skills:</span><input type="text" class="form-control" id="signUp-skills" /></div>
+            <div><span>Experience(years):</span><input type="text" class="form-control" id="signUp-experience" onblur="signUpLevel()"/></div>
+            <div>
+                <span>Your Level:</span>
+                <span id="signUp-level"></span>
+            </div>
+        </div>
+        <div class="signUp-questioner">
+        <div>
+            <span>Car Country:</span>
+            <input type="text" class="form-control" autocomplete="off" id="signUp-car-country" list="signUp-cars-country-select"/>
+            <datalist id="signUp-cars-country-select">
+            </datalist>
+        </div>
+        <div>
+            <span>Car Brand:</span>
+            <input type="text" class="form-control" autocomplete="off" id="signUp-car-brand" list="signUp-cars-brand-select"/>
+            <datalist id="signUp-cars-brand-select">
+            </datalist>
+        </div>
+        <div>
+            <span>Car Model:</span>
+            <input type="text" class="form-control" autocomplete="off" id="signUp-car-model" list="signUp-cars-model-select"/>
+            <datalist id="signUp-cars-model-select">
+            </datalist>
+        </div>
+        <div>
+            <span>Car Image:</span>
+            <img src="images/car-model-pics/car-default.png" alt="car-model-pic" id="signUp-car-img"/>
+        </div>
+        </div>
+        <button class="btn" type="button" id="signUp-submit">Submit Profile</button>
+    </form>
+</div>
+</body>
+</html>
+
+

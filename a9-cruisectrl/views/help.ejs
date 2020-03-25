@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Help Info</title>
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+
+    <link href="stylesheets/help.css" rel="stylesheet">
+    <link href="stylesheets/chat.css" rel="stylesheet">
+    <script src="javascripts/init.js"></script>
+    <script src="javascripts/socket.js"></script>
+    <script src="javascripts/help.js"></script>
+</head>
+<body>
+<div class="help">
+    <div class="index">
+        <div class="help-back">
+        <img src="images/back-white.png" id="help-back"/>
+        </div>
+        <div id="alert-placeholder">
+        </div>
+        <div id="help-info">
+            <div class="help-title">Help</div>
+            This project has 3 pages:<br/>
+            Home, Q&A and Profile.<br/>
+            Our app's features:<br/><br/>
+            1. User login (username & password)<br/><br/>
+            2. User Sign-up with profile pictures<br/><br/>
+            3. Homepage: Categories for common car problems, which may include common questions
+            and answers. The search box may, but only with exact matches, inaccurate matches are not currently supported.<br/><br/>
+            4. Q&A: If users cannot find an answer under the categories located in 'Home', then they can use our Q&A section to chat with an expert.
+            Users are allowed to type in their question and select an expert from online users provided in the dropdown menu.
+            A question will cost 1 coin, but users get 1 free coin to ask a question.
+            Users will be able to get coins by answering questions in the near future.<br/><br/>
+            5. User profile: Users can always check their profile by clicking the button at the bottom.<br/><br/>
+        </div>
+    </div>
+    <%- include ('chat.ejs') %>
+</div>
+</body>
+</html>

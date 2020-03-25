@@ -1,0 +1,160 @@
+#middle-question{
+    /*height:100%;*/
+    margin-top: 3vh;
+    margin-left:5vw;
+    margin-right: 5vw;
+    font-size: xx-large;
+}
+
+.part{
+    margin-top:1vh;
+}
+
+.upload{
+    margin-top: 1vh;
+}
+.upload-box{
+    width:100%;
+    margin-bottom: 1vh;
+    font-size: xx-large;
+}
+
+#upload{
+    height:2vh;
+    width:2vh;
+}
+
+.badge{
+    font-size: 30px;
+    border: 1px solid;
+}
+
+.expert-abbr{
+    margin-top:1vh;
+}
+
+.expert-abbr span{
+    font-size: 35px;
+}
+
+#expert-name{
+    display:inline;
+}
+
+#expert-remove{
+    height:2vh;
+    width:2vh;
+}
+
+.expert-list{
+    display: none;
+}
+
+.parts-select{
+    display: none;
+    position:absolute;
+    top:19vh;
+    left:5vw;
+    width:90vw;
+    background-color:#ee4723;
+    color:white;
+    border:2px solid;
+    z-index:2;
+}
+
+a.active.nav-link {
+    color: #ee4723;
+}
+
+#expert-save{
+    background-color:#ee4723;
+}
+
+.nav-pills #question-item .nav-link:not(.active) {
+    background-color:white;
+    color:#ee4723;
+}
+
+.nav-pills #answer-item .nav-link:not(.active) {
+    background-color:white;
+    color:#ee4723;
+
+}
+
+.nav-pills #question-item .nav-link {
+    background-color:#ee4723;
+    color:white;
+}
+
+.nav-pills #answer-item .nav-link {
+    background-color:#ee4723;
+    color:white;
+}
+
+.question-more-info{
+    color:#ee4723;
+    /*position:absolute;*/
+    /*bottom: 20vh;*/
+    font-size: xx-large;
+}
+
+.question-more-info-content{
+    display: none;
+    position:absolute;
+    bottom:25vh;
+    height:15vh;
+    width:50vw;
+    border:1px solid;
+    z-index:2;
+    color:white;
+    background-color: #ee4723;
+    border-radius:20px;
+    margin-left: 25vw;
+    top:50vh;
+    font-size: xx-large;
+}
+
+#more-info-close{
+    float:right;
+    height:3vh;
+    width:3vh;
+    margin-right: -0.5vh;
+    margin-top:-0.5vh;
+    border:none
+}
+
+.more-info-display{
+    padding-left: 2vh;
+    padding-top:0.5vh;
+}
+
+#question-expert-name{
+    height:5vh;
+    font-size: xx-large;
+}
+
+.question-title{
+    height:5vh;
+    font-size: xx-large;
+}
+
+.parts-input{
+    height:5vh;
+    font-size: xx-large;
+}
+
+#submit-question{
+    display: block;
+    height:6vh;
+    width: 60vw;
+    margin-left: 15vw;
+    margin-top: 2vh;
+    border:2px solid;
+    font-size: xx-large;
+    font-weight:700;
+    background-color:#ee4723;
+    color:white;
+}
+
+
+

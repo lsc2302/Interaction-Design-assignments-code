@@ -1,0 +1,33 @@
+.pop-up{
+    display:none;
+    position: fixed;
+    height:25vh;
+    width:50vw;
+    margin-top:10vh;
+    margin-left: 5vw;
+    z-index: 99;
+    color:white;
+    background-color: #ee4723;
+    border-top:2px solid white;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    border-left:2px solid black;
+}
+
+.pop-up img{
+    height:3vh;
+    width:3vh;
+    margin:2.5vh;
+}
+
+.pop-up-avatar{
+    height:5vh;
+    font-size: xx-large;
+}
+
+.pop-up-other{
+    position:absolute;
+    height:15vh;
+    width:100%;
+    font-size: xx-large;
+}

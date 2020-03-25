@@ -1,0 +1,79 @@
+.log{
+    font-size: x-large;
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-color: #ee4723;
+    color:white;
+    z-index: 3;
+}
+
+.log img{
+    height:5vh;
+    width:5vh;
+    margin-left: 1vh;
+    margin-right: 0.5vh;
+}
+
+.log #login-icon{
+    height:70vw;
+    width:70vw;
+    margin-left: 15vw;
+}
+
+.log button{
+    height:6vh;
+    width:70%;
+    margin-top: 8vh;
+    margin-bottom: 1vh;
+    color:white;
+    background-color: black;
+    margin-left:15vw;
+    border-radius: 3vh;
+    font-size: xx-large;
+}
+
+.log .sign-up{
+    width:100%;
+    text-align: center;
+    font-size:xx-large;
+}
+
+.log div{
+    margin-top:3vh;
+    color:white;
+}
+
+.log input{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-left: 5vw;
+    border-radius: 3vh;
+    height:6vh;
+    width:80%;
+    font-size: xx-large;
+}
+
+.log .google-login{
+    height:6vh;
+    width:70%;
+    margin-left: 15vw;
+    color: black;
+    background-color: white;
+    text-align: left;
+    font-size: xx-large;
+    border-radius: 3vh;
+    line-height: 6vh;
+}
+
+.log .facebook-login{
+    height:6vh;
+    width:70%;
+    margin-left: 15vw;
+    color:white;
+    background-color: #3b5998;
+    text-align: left;
+    font-size: xx-large;
+    border-radius: 3vh;
+    line-height: 6vh;
+}

@@ -1,0 +1,123 @@
+.chatroom{
+    position:absolute;
+    display:none;
+    flex-direction: column;
+    height:100%;
+    width:100%;
+}
+.chatroom .chatroom-top{
+    flex:10;
+    border-bottom: 2px solid;
+    background-color: #ee4723;
+}
+
+.chatroom .chatroom-title{
+    display: inline;
+    width:30vw;
+    line-height: 10vh;
+    height:10vh;
+    font-size: 60px;
+    margin-left:20vw;
+    color: white;
+}
+
+.chatroom .chatroom-body{
+    flex:75;
+    width:90%;
+    border:2px dashed;
+    margin-top: 2.5vh;
+    margin-left:5vw;
+    overflow: scroll;
+}
+
+.chatroom #chatroom-leave{
+    height:5vh;
+    width:5vh;
+    margin-left:2vh;
+}
+
+.chatroom .chatroom-bottom{
+    flex:15;
+    width:90vw;
+    margin-left: 5vw;
+}
+
+.chatroom .input-group{
+    height:3vh;
+    margin-top:2.5vh;
+}
+
+.chatroom .input-group input{
+    height:5vh;
+    font-size: xx-large;
+}
+
+.chatroom .input-group button{
+    background-color:#ee4723;
+    color:white;
+    font-size: xx-large;
+}
+
+.chatroom .self-msg{
+    display:inline-block;
+    background-color: #ee4723;
+    color: white;
+    float:left;
+    font-size: xx-large;
+    white-space:pre-wrap;
+    word-wrap:break-word;
+    max-width: 50vw;
+    text-align: left;
+}
+
+.chatroom .oppo-msg{
+    display:inline-block;
+    background-color: #ee4723;
+    color: white;
+    float:right;
+    font-size: xx-large;
+    white-space:pre-wrap;
+    word-wrap:break-word;
+    max-width: 50vw;
+    text-align: left;
+}
+
+.clear {
+    clear:both;
+}
+
+.chatroom .system-msg{
+    display:inline-block;
+    background-color: gray;
+    color: white;
+    font-size: x-large;
+}
+
+.chatroom .msg-wrapper-sys,.msg-wrapper-oppo,.msg-wrapper-self{
+    min-height:5vh;
+    margin-top: 1.5vh;
+    text-align: center;
+}
+
+.chatroom .msg-wrapper-self img{
+    float:left;
+    height:5vh;
+    width:5vh;
+    border-radius: 50%;
+    margin-left:1vh;
+    margin-right:1vh;
+}
+
+.chatroom .msg-wrapper-oppo img{
+    float:right;
+    height:5vh;
+    width:5vh;
+    border-radius: 50%;
+    margin-left:1vh;
+    margin-right: 1vh;
+}
+
+
+
+
+
